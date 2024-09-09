@@ -1,0 +1,10 @@
+שם: אילאי בן יהושע
+ת"ז: 214795668
+הורדתי IDA, והדבקתי את קובץ הPATCHWORK  בתוכה. 
+לאחר שIDA עשה DISAS לשפת המכונה, ראיתי שיש תנאי של JZ.
+בדקתי ומצאתי שהקוד של JZ הוא 74. והוא התנאי אשר חוסם לי את קריאת הSECRET FLAG.
+שיניתי בתוך הIDA את 74  ל75 וקיבלנו שעבור כל ריצה נקבל את הדגל הסודי, וכך כבר בתוכנית לא חוסמת אותי.
+ולכן, הדגל הסודי הוא:
+"Trampolines are quite fun!; I love to jump! 
+You should try jumping too! It'll sure be more fun than reversing the flag manually.
+"
